@@ -29,7 +29,7 @@ public class DogCat {
     public static class PetEnterQueue{
         private Pet pet;
         private long count;
-        public PetEnterQueue(Pet pet, long count){
+        PetEnterQueue(Pet pet, long count){
             this.pet = pet;
             this.count = count;
         }
@@ -60,6 +60,35 @@ public class DogCat {
                 this.catQueue.add(new PetEnterQueue(pet, this.count++));
             }else {
                 throw new RuntimeException("not cat or dog");
+            }
+        }
+        public Dog pollDog(){
+            if (!dogQueue.isEmpty()){
+                return (Dog) this.dogQueue.poll().getPet();
+            } else {
+                throw new RuntimeException("Dog queue is empty！");
+            }
+        }
+        public Cat pollCat(){
+            if (!catQueue.isEmpty()){
+                return (Cat) this.catQueue.poll().getPet();
+            } else {
+                throw new RuntimeException("Cat queue is empty! ");
+            }
+        }
+        public Pet pollAll(){
+            if (!this.dogQueue.isEmpty() && !this.catQueue.isEmpty()){
+                if (this.dogQueue.peek().getCount() < this.catQueue.peek().getCount()){
+                    return this.dogQueue.poll().getPet();
+                } else {
+                    return this.catQueue.poll().getPet();
+                }
+            } else if (!this.dogQueue.isEmpty()){
+                return this.dogQueue.poll().getPet();
+            } else if (!this.catQueue.isEmpty()){
+                return this.catQueue.poll().getPet();
+            } else {
+                throw new RuntimeException("err, no cat or dog");
             }
         }
     }
