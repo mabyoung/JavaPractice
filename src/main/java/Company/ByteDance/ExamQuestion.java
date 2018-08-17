@@ -1,4 +1,4 @@
-package Company.byteDance;
+package Company.ByteDance;
 
 import java.util.Arrays;
 import java.util.Scanner;
