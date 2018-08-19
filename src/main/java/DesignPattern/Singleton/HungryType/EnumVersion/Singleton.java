@@ -11,24 +11,22 @@ public class Singleton{
         static {
             System.out.println("加载内部类");
         }
-        private Singleton singleton;
-        SingletonEnum(){
-            singleton = new Singleton();
-        }
-        public Singleton getInstance(){
-            return singleton;
-        }
+        private Singleton instance = new Singleton();
     }
     public static Singleton getInstance(){
-        return SingletonEnum.INSTANCE.getInstance();
+        return SingletonEnum.INSTANCE.instance;
+    }
+    public void say(){
+        System.out.println("dd");
     }
 }
 class test{
     public static void main(String[] args) {
-//        Singleton singleton1 = Singleton.getInstance();
-//        Singleton singleton2 = Singleton.getInstance();
-//        System.out.println(singleton1);
-//        System.out.println(singleton2);
-//        System.out.println(singleton1 == singleton2);
+        Singleton singleton1 = Singleton.getInstance();
+        Singleton singleton2 = Singleton.getInstance();
+        singleton1.say();
+        System.out.println(singleton1);
+        System.out.println(singleton2);
+        System.out.println(singleton1 == singleton2);
     }
 }
