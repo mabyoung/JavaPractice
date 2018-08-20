@@ -9,7 +9,7 @@ public class Player {
         totalAmount += amount;
         System.out.println("本次消费" + amount + "元");
         CalPriceFactory calPriceFactory = CalPriceFactory.getInstacne();
-        calPriceFactory.createCalPrice(this);
+        this.calPrice = calPriceFactory.createCalPrice(this);
     }
 
     public Double calLastAmount(Double amount) {
