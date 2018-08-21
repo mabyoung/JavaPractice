@@ -20,7 +20,7 @@ public class MergeSort {
 
     public static void merge(int[] array, int left, int right, int mid) {
         int i = left, j = mid + 1;
-        int tmp[] = new int[right+1];
+        int tmp[] = new int[right - left + 1];
         int tmpIndex = 0;
         while (i <= mid && j <= right) {
             if (array[i] <= array[j]) {
@@ -31,14 +31,14 @@ public class MergeSort {
                 j++;
             }
         }
-        if (i <= mid) {
+        while (i <= mid) {
             tmp[tmpIndex++] = array[i++];
         }
-        if (j <= right) {
+        while (j <= right) {
             tmp[tmpIndex++] = array[j++];
         }
         for (i = 0; i < tmp.length; i++) {
-            array[i] = tmp[i];
+            array[left + i] = tmp[i];
         }
     }
 }
