@@ -15,6 +15,5 @@ public class ClassD extends ClassC {
     public static void main(String[] args) {
         ClassD classD = new ClassD();
         classD.functionD1();
-        Sc
     }
 }
