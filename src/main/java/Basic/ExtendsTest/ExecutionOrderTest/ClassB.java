@@ -1,5 +1,14 @@
 package Basic.ExtendsTest.ExecutionOrderTest;
 
+/**
+ * 在继承中代码的执行顺序为：
+ * 1.父类静态对象，父类静态代码块
+ * 2.子类静态对象，子类静态代码块
+ * 3.父类非静态对象，父类非静态代码块
+ * 4.父类构造函数
+ * 5.子类非静态对象，子类非静态代码块
+ * 6.子类构造函数
+ */
 class ClassA {
     public static ClassA classA = new ClassA();//①输出(A的构造代码块、A的构造方法)
     public ClassA() {
