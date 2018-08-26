@@ -2,10 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf24f52-ead2-4a77-b79d-ac7226e69fbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/FunctionTest/CreateThread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/InterruptTest/InterruptFunctionTest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/JoinTest/JoinFunctionTest/NotUseJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/JoinTest/JoinFunctionTest/NotUseJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/JoinTest/JoinFunctionTest/UseJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/JoinTest/JoinFunctionTest/UseJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/LockFairTest/ReentrantLockFairTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/LockFairTest/ReentrantLockFairTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ConditionTest/ConditionExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ConditionTest/ConditionExample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ConditionTest/UseMoreConditionWaitNotify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ConditionTest/UseMoreConditionWaitNotify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ConditionTest/UseMoreConditionWaitNotify/MyserviceMoreCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ConditionTest/UseMoreConditionWaitNotify/MyserviceMoreCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ConditionTest/UseSingleConditionWaitNotify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ConditionTest/UseSingleConditionWaitNotify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ReentrantLockFunctionTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ReentrantLockFunctionTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantReadWriteLockTest/ReentrantReadWriteLockFunction/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/PipeTest/PipedInputOutputTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/PipeTest/PipedInputOutputTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/PipeTest/PipedInputOutputTest/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/PipeTest/PipedInputOutputTest/ReadData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/PipeTest/PipedInputOutputTest/ReadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/PipeTest/PipedInputOutputTest/ReadThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/PipeTest/PipedInputOutputTest/WriteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/PipeTest/PipedInputOutputTest/WriteData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/PipeTest/PipedInputOutputTest/WriteThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/PipeTest/PipedInputOutputTest/WriteThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SuspendAndResume/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SuspendAndResume/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/ThreadC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/ThreadC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadLocalTest/InheritableThreadLocalTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadLocalTest/InheritableThreadLocalTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadLocalTest/InitialValueTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadLocalTest/InitialValueTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadLocalTest/ThreadLocalFunctionTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadLocalTest/ThreadLocalFunctionTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadPool/SheduledThreadPoolExecutorTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadPool/SheduledThreadPoolExecutorTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadPool/ThreadPoolExecutorTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadPool/ThreadPoolExecutorTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadPool/ThreadPoolExecutorTest/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadPool/ThreadPoolExecutorTest/WorkerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/ThreadPriority/ThreadPriorityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/ThreadPriority/ThreadPriorityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/VolatileTest/VolatileAtomicityTest/Mythread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/VolatileTest/VolatileAtomicityTest/Mythread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/VolatileTest/VolatileAtomicityTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/VolatileTest/VolatileAtomicityTest/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/VolatileTest/VolatileFunctionTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/VolatileTest/VolatileFunctionTest/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/VolatileTest/VolatileFunctionTest/RunThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/VolatileTest/VolatileFunctionTest/RunThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/ProducterAndConsumer/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/ProducterAndConsumer/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/ProducterAndConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/ProducterAndConsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/ProducterAndConsumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/ProducterAndConsumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/ProducterAndConsumer/Producter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/ProducterAndConsumer/Producter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/ThreadA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitAndNotifyFunctionTest/ThreadB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitMeetInterrupt/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitMeetInterrupt/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitMeetInterrupt/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitMeetInterrupt/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic/thread/WaitAndNotifyTest/WaitMeetInterrupt/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitMeetInterrupt/ThreadA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +62,9 @@
     <SUITE FILE_PATH="coverage/practice$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1534844699608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DataStructure.sort.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/practice$Match.ic" NAME="Match Coverage Results" MODIFIED="1535256676216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SwordOffer.String.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1913906255">
@@ -25,33 +72,34 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="68" />
+          <entry key="java" value="74" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="74" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="13234" />
+          <entry key="java" value="13981" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13234" />
+          <entry key="JAVA" value="13981" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
@@ -61,63 +109,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/JoinTest/JoinFunctionTest/UseJoin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitMeetInterrupt/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Basic/TryCatch/ReturnOrder/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Basic/AbstractAndInterface/InterfaceTest/ExampleOne/ClassD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/InterruptTest/InterruptFunctionTest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-              <folding>
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -144,6 +148,8 @@
       <find>abstract</find>
       <find>你问</find>
       <find>肖申克</find>
+      <find>queue</find>
+      <find>interrupt</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Projects\ideaProjects\practice\src</dir>
@@ -197,6 +203,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java" />
         <option value="$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Company/Net163/Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic/thread/SynchronizedTest/SynchronizedClassTest/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic/Thread/FunctionTest/CreateThread/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic/Thread/InterruptTest/InterruptFunctionTest/Main.java" />
       </list>
     </option>
   </component>
@@ -213,10 +224,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1300" />
-    <option name="height" value="930" />
+    <option name="x" value="7" />
+    <option name="y" value="7" />
+    <option name="width" value="1024" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,8 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,7 +271,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -270,8 +279,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="InterruptTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitAndNotifyTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -286,12 +315,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535256671406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535290084430" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcloud-tradecenter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -310,13 +341,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Match">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="IsPopOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SwordOffer.StackAndQueue.IsPopOrder" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SwordOffer.StackAndQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Thread.InterruptTest.InterruptFunctionTest.Main" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.Thread.InterruptTest.InterruptFunctionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Thread.FunctionTest.CreateThread.Main" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.Thread.FunctionTest.CreateThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,46 +407,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.TryCatch.ReturnOrder.Test" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic.TryCatch.ReturnOrder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.thread.JoinTest.JoinFunctionTest.UseJoin" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic.thread.JoinTest.JoinFunctionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UseJoin" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Merge" />
       <item itemvalue="Application.IsPopOrder" />
       <item itemvalue="Application.Match" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Match" />
         <item itemvalue="Application.IsPopOrder" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.UseJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -413,12 +444,14 @@
       <workItem from="1534903433264" duration="315000" />
       <workItem from="1534903806543" duration="40848000" />
       <workItem from="1535089557981" duration="15286000" />
-      <workItem from="1535131527451" duration="12696000" />
+      <workItem from="1535131527451" duration="14138000" />
+      <workItem from="1535281225025" duration="1599000" />
+      <workItem from="1535288054002" duration="1993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69078000" />
+    <option name="totallyTimeSpent" value="74112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +466,7 @@
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20459081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18163672" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -445,7 +478,7 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32902467" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.496507" visible="true" weight="0.21465428" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.496507" visible="true" weight="0.21465428" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49550897" weight="0.32301342" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -456,10 +489,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.5435898" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49750498" weight="0.36842105" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49750498" weight="0.61025643" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" />
       <window_info anchor="bottom" id="CheckStyle" order="16" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.501548" side_tool="true" visible="true" weight="0.14620759" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.501548" side_tool="true" weight="0.29897958" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -531,39 +564,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Reflect/ExampleOne/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Reflect/ExampleOne/test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="14" selection-start-column="14" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ConditionTest/UseSingleConditionWaitNotify/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/LockTest/ReentrantLockTest/ReentrantLockFunctionTest/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/LockTest/ReentrantLockTest/ReentrantLockFunctionTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
@@ -581,10 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,17 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/VirtualQueueUseStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,12 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,14 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
           <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,21 +811,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/SuspendAndResume/ThreadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/SuspendAndResume/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/JoinTest/JoinFunctionTest/NotUseJoin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/JoinTest/JoinFunctionTest/NotUseJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/thread/JoinTest/JoinFunctionTest/UseJoin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/JoinTest/JoinFunctionTest/UseJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
@@ -877,32 +846,74 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Basic/AbstractAndInterface/InterfaceTest/ExampleOne/ClassD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="396">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/VirtualQueueUseStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Company/Net163/Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/SynchronizedTest/SynchronizedClassTest/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/FunctionTest/CreateThread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/WaitAndNotifyTest/WaitMeetInterrupt/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Thread/InterruptTest/InterruptFunctionTest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
