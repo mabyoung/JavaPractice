@@ -41,8 +41,10 @@ public class Circle {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
         Draw draw1 = circle.new Draw();
-        Draw draw2 = circle.getInnerInstance();
+        Circle.Draw draw2 = circle.new Draw();
+        Draw draw3 = circle.getInnerInstance();
         draw1.drawShape();
         draw2.drawShape();
+        draw3.drawShape();
     }
 }
