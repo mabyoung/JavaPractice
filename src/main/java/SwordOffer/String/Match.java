@@ -15,17 +15,17 @@ public class Match {
         if (i < str.length && j >= pattern.length) {
             return false;
         }
-        if (pattern[j] == '.') {
-            return matchHelper(str, i + 1, pattern, j + 1);
-        }
         if (j + 1 < pattern.length && pattern[j + 1] == '*') {
-            if (str[i] == pattern[j]){
+            if (i < str.length && (str[i] == pattern[j] || pattern[j] == '.')) {
                 return matchHelper(str, i, pattern, j + 2) || matchHelper(str, i + 1, pattern, j);
             } else {
-                return matchHelper(str, i, pattern, j+2);
+                return matchHelper(str, i, pattern, j + 2);
             }
         }
-        if (i>=str.length || str[i] != pattern[j]) {
+        if (pattern[j] == '.' && i < str.length) {
+            return matchHelper(str, i + 1, pattern, j + 1);
+        }
+        if (i >= str.length || str[i] != pattern[j]) {
             return false;
         }
         return matchHelper(str, i + 1, pattern, j + 1);
@@ -36,7 +36,7 @@ public class Match {
     }
 
     public static void main(String[] args) {
-        char[] str = "".toCharArray();
+        char[] str = "a".toCharArray();
         char[] pattern = ".*".toCharArray();
         System.out.println(match(str, pattern));
     }
