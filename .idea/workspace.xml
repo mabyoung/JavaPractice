@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf24f52-ead2-4a77-b79d-ac7226e69fbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Company/Tencent/StructuralPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Company/Tuniu/PrintAllSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCGLIB/BookProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCGLIB/BookProxyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCGLIB/BookProxyLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCGLIB/DBQueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCGLIB/TestCglib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/KingFurong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/Maotai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/SellCigarette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/SellWine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfCounter/Wuliangye.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfJDK/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfJDK/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfJDK/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/DynamicProxy/ExampleOfJDK/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/StaticProxy/ExampleOfMovie/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/StaticProxy/ExampleOfMovie/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/StaticProxy/ExampleOfMovie/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Proxy/StaticProxy/ExampleOfMovie/RealMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$你问我答.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,26 +32,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
+          <entry key="java" value="68" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="68" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="11165" />
+          <entry key="java" value="13234" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11165" />
+          <entry key="JAVA" value="13234" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
@@ -102,11 +82,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basic/AbstractAndInterface/InterfaceTest/ExampleOne/ClassD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+              <folding>
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +194,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Basic/Test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Basic/TryCatch/ReturnOrder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Basic/AbstractAndInterface/InterfaceTest/ExampleOne/ClassD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java" />
       </list>
     </option>
   </component>
@@ -222,6 +236,45 @@
           <expand>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -238,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535204483609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535256671406" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcloud-tradecenter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -257,13 +310,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordOffer.Trick.Add" />
+  <component name="RunManager" selected="Application.Match">
+    <configuration name="IsPopOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordOffer.StackAndQueue.IsPopOrder" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwordOffer.Trick.*" />
+          <option name="PATTERN" value="SwordOffer.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordOffer.Array.GetLeastNumbers" />
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordOffer.String.Match" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwordOffer.Array.*" />
+          <option name="PATTERN" value="SwordOffer.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotUseJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.thread.JoinTest.JoinFunctionTest.NotUseJoin" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordOffer.ListNode.Merge" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.thread.JoinTest.JoinFunctionTest.*" />
+          <option name="PATTERN" value="SwordOffer.ListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,19 +377,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GetLeastNumbers" />
-      <item itemvalue="Application.Add" />
-      <item itemvalue="Application.NotUseJoin" />
       <item itemvalue="Application.UseJoin" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.IsPopOrder" />
+      <item itemvalue="Application.Match" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Match" />
+        <item itemvalue="Application.IsPopOrder" />
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.UseJoin" />
-        <item itemvalue="Application.NotUseJoin" />
-        <item itemvalue="Application.Add" />
-        <item itemvalue="Application.GetLeastNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -360,12 +413,12 @@
       <workItem from="1534903433264" duration="315000" />
       <workItem from="1534903806543" duration="40848000" />
       <workItem from="1535089557981" duration="15286000" />
-      <workItem from="1535131527451" duration="7280000" />
+      <workItem from="1535131527451" duration="12696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63662000" />
+    <option name="totallyTimeSpent" value="69078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +433,7 @@
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20459081" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20459081" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -392,7 +445,7 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32902467" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.496507" weight="0.21465428" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.496507" visible="true" weight="0.21465428" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49550897" weight="0.32301342" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -465,32 +518,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Basic/Reflect/ExampleOne/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -838,6 +878,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/ListNode/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/StackAndQueue/IsPopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SwordOffer/String/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
