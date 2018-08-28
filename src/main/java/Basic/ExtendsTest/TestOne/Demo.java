@@ -15,6 +15,7 @@ public class Demo {
 
     class Sub extends Super {
         Sub(int i) {
+            super();
             flag = i;
             System.out.println("Sub.Sub()flag=" + flag);
         }
