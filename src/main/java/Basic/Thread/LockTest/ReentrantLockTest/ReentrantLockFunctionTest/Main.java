@@ -1,5 +1,6 @@
 package Basic.Thread.LockTest.ReentrantLockTest.ReentrantLockFunctionTest;
 
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -8,6 +9,7 @@ public class Main {
         private Lock lock = new ReentrantLock();
         private void testMethod(){
             lock.lock();
+
             try {
                 for (int i = 0; i < 5; i++) {
                     System.out.println("ThreadName=" + Thread.currentThread().getName() + (" " + (i + 1)));

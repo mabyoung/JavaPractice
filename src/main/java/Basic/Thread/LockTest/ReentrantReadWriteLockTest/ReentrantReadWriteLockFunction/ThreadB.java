@@ -6,6 +6,6 @@ public class ThreadB extends Thread{
         this.service = service;
     }
     public void run(){
-        service.read();
+        service.write();
     }
 }
