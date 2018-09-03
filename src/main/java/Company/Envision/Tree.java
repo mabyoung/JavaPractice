@@ -11,7 +11,6 @@ public class Tree {
         queue.add(root);
         while (!queue.isEmpty()){
             TreeLinkNode treeLinkNode = queue.pollFirst();
-
         }
     }
 }
