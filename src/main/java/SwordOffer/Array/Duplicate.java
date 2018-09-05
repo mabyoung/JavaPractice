@@ -48,6 +48,8 @@ public class Duplicate {
     }
 
     public static void main(String[] args) {
+        char[] array = "https://www.guazi.com/".toCharArray();
+        System.out.println(array.length);
         int[] numbers = {2, 1, 3, 1, 4};
         int[] duplication = new int[1];
         if (solution2(numbers, duplication)) {
