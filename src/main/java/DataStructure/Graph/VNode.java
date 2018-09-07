@@ -1,13 +1,12 @@
 package DataStructure.Graph;
 
-/**
- * Created by rui on 2018/9/6.
- */
 public class VNode {
-    char data;
-    ArcNode firstArc;
-    int count;
-    public VNode(ArcNode firstArc){
-        this.firstArc = firstArc;
+    int no;
+    String info;
+    ArcNode nextArc;
+    public VNode(int no, String info, ArcNode nextArc){
+        this.no = no;
+        this.info = info;
+        this.nextArc = nextArc;
     }
 }

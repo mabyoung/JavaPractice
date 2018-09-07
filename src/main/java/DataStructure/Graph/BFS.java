@@ -1,18 +1,22 @@
 package DataStructure.Graph;
 
-/**
- * Created by rui on 2018/9/6.
- */
-public class DFS {
-    private static int visit[];
-    static void dfs(AGraph graph, int v){
-        if (visit[v] == 0){
-            visit[v] = 1;
-            System.out.println(graph.adjList[v].info);
-            ArcNode node = graph.adjList[v].nextArc;
-            while (node != null){
-                dfs(graph, node.no);
-                node = node.nextArc;
+import java.util.LinkedList;
+
+public class BFS {
+    static void bfs(AGraph graph, int v){
+        int visit[] = new int[graph.n];
+        LinkedList<Integer> queue = new LinkedList<>();
+        queue.addLast(v);
+        while(!queue.isEmpty()){
+            Integer nextV = queue.pollFirst();
+            if (visit[nextV] == 0){
+                visit[nextV] = 1;
+                System.out.println(graph.adjList[nextV].info);
+                ArcNode index = graph.adjList[nextV].nextArc;
+                while(index != null){
+                    queue.addLast(index.no);
+                    index = index.nextArc;
+                }
             }
         }
     }
@@ -33,7 +37,6 @@ public class DFS {
         vNodes[1].nextArc = arcNode3;
         arcNode3.nextArc = arcNode4;
         AGraph graph = new AGraph(vNodes, vNodes.length, 4);
-        visit = new int[vNodes.length];
-        dfs(graph, 0);
+        bfs(graph, 0);
     }
 }
