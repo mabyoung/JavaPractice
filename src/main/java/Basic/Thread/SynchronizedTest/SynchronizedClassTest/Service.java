@@ -4,6 +4,8 @@ public class Service {
     public static void printA() {
         synchronized (Service.class) {
             try {
+                Service service = new Service();
+                service.wait();
                 System.out.println(
                         "线程名称为：" + Thread.currentThread().getName() + "在" + System.currentTimeMillis() + "进入printA");
                 Thread.sleep(3000);
