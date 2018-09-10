@@ -2,6 +2,9 @@ package SwordOffer;
 
 import java.util.Scanner;
 
+/**
+ * 把只包含因子2、3、5的数称为丑数
+ */
 public class GetUglyNumber {
     public static int getUglyNumber(int index) {
         if (index == 0){
@@ -29,8 +32,6 @@ public class GetUglyNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int index = scanner.nextInt();
-        for (int i = 1; i <= index; i++) {
-            System.out.println(getUglyNumber(i));
-        }
+        System.out.println(getUglyNumber(index));
     }
 }
