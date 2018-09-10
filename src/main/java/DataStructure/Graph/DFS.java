@@ -1,5 +1,5 @@
 package DataStructure.Graph;
-
+import java.util.*;
 /**
  * Created by rui on 2018/9/6.
  */
@@ -18,6 +18,9 @@ public class DFS {
     }
 
     public static void main(String[] args) {
+        int x=10;
+        x+=x-=x-x;
+        System.out.println(x);
         VNode[] vNodes = new VNode[5];
         vNodes[0] = new VNode(0, "v0", null);
         vNodes[1] = new VNode(1, "v1", null);

@@ -22,6 +22,10 @@ public class BFS {
     }
 
     public static void main(String[] args) {
+        int a=7;
+        float x=2.5F;
+        float y=4.7F;
+        System.out.println(x+a%3*(int)(x+y)%2/4);
         VNode[] vNodes = new VNode[5];
         vNodes[0] = new VNode(0, "v0", null);
         vNodes[1] = new VNode(1, "v1", null);
