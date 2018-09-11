@@ -1,6 +1,6 @@
 package DataStructure.sort;
 
-import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Created by rui on 2018/8/31.
@@ -9,12 +9,12 @@ public class HeapSort {
     public static void shif(int[] array, int low, int high) {
         int i = low;
         int j = 2 * (i + 1) - 1;
-        int tmp = array[i];
+        int guest = array[i];
         while (j <= high) {
             if (j < high && array[j] < array[j + 1]) {
                 j++;
             }
-            if (tmp < array[j]) {
+            if (guest < array[j]) {
                 array[i] = array[j];
                 i = j;
                 j = 2 * (i + 1) - 1;
@@ -22,7 +22,7 @@ public class HeapSort {
                 break;
             }
         }
-        array[i] = tmp;
+        array[i] = guest;
     }
 
     public static void heapSort(int[] array) {
@@ -39,8 +39,15 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 5, 3, 6, 7, 9, 4, 8};
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = scanner.nextInt();
+        }
         heapSort(array);
-        System.out.println(Arrays.toString(array));
+        for (int i = 0; i < n; i++) {
+            System.out.print(array[i] + " ");
+        }
     }
 }
