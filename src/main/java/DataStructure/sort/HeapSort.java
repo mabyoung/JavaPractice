@@ -39,7 +39,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 5, 3, 6, 7, 9, 4, 8};
+        int[] array = {7,6,5,4,3,2,1};
         heapSort(array);
         System.out.println(Arrays.toString(array));
     }
