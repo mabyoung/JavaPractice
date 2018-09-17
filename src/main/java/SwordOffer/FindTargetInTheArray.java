@@ -1,7 +1,7 @@
 package SwordOffer;
 
 /**
- * Created by rui on 2018/8/18.
+ * 在一个二维数组中，每一行都按照从左到右递增，每一列都按照从上到下递增。判断数组中是否含有某个整数。
  */
 public class FindTargetInTheArray {
     public static boolean find(int target, int [][] array) {
