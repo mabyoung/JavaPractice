@@ -15,6 +15,9 @@ public class Main {
         @Override
         public void run(){
             super.run();
+            int i =0;
+            i++;
+            System.out.println(i);
             System.out.println("通过继承Thread类创建多线程！");
         }
     }
@@ -27,8 +30,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Mythread mythread = new Mythread();
-        mythread.start();
+        for (int i=0;i<10000;i++) {
+            Mythread mythread = new Mythread();
+            mythread.start();
+        }
         MyRunnable myRunnable = new MyRunnable();
         new Thread(myRunnable).start();
     }

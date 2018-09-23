@@ -1,13 +1,12 @@
-package lcs;
+package Company.SF;
 
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
-public class LongestCommonSubsequence {
-    private int[][] LCSPath;
-    public int getLCS(char[]a, char[]b){
-        int[][] LCS = new int[a.length+1][b.length+1];
-        LCSPath = new int[a.length][b.length];
+public class Alian {
+    private static int[][] LCSPath;
+    public static int getLCS(int[]a, int[]b, int n){
+        int[][] LCS = new int[n +1][n+1];
+        LCSPath = new int[n][n];
         for (int index = 0; index < a.length; index++){
             LCS[index][0] = 0;
         }
@@ -30,37 +29,49 @@ public class LongestCommonSubsequence {
                 }
             }
         }
-        return LCS[a.length][b.length];
+        return LCS[n][n];
     }
 
-    public void printLCS(char[]a, char[]b){
-        Stack<Character> stack = new Stack<>();
-        int i = a.length-1, j = b.length -1;
+    public static void printLCS(int[]a, int[]b, int n){
+        Set<Integer> set = new HashSet<>();
+        int i = n -1, j = n -1;
         while(i >= 0 && j >= 0){
             int lastPath = LCSPath[i][j];
             if (lastPath == 1){
                 i--;
             } else if (lastPath == 2){
-                stack.push(a[i]);
+                set.add(a[i]);
                 i--;j--;
             } else if (lastPath == 3){
                 j--;
             }
         }
-        while (!stack.isEmpty()){
-            System.out.print(stack.pop());
+        int result = 0;
+        List<Integer> list = new ArrayList<>();
+        for (int item : b) {
+            list.add(item);
         }
+        for(i = 0;i<n;i++){
+            if (!set.contains(a[i])){
+                int indexOf = list.indexOf(a[i]);
+                result+=Math.abs(indexOf-i);
+            }
+        }
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
-        System.out.println("请输入第一个字符串：");
         Scanner scanner = new Scanner(System.in);
-        char[] a = scanner.nextLine().trim().toCharArray();
-        System.out.println("请输入第一个字符串：");
-        char[] b = scanner.nextLine().trim().toCharArray();
-        LongestCommonSubsequence longestCommonSubsequence = new LongestCommonSubsequence();
-        int result = longestCommonSubsequence.getLCS(a, b);
-        System.out.println("最长公共子序列长度："+result);
-        longestCommonSubsequence.printLCS(a, b);
+        int n = scanner.nextInt();
+        int[] a = new int[n];
+        for (int i=0;i<n;i++){
+            a[i] = scanner.nextInt();
+        }
+        int[] b = new int[n];
+        for (int i=0;i<n;i++){
+            b[i] = scanner.nextInt();
+        }
+        getLCS(a,b,n);
+        printLCS(a,b,n);
     }
 }
