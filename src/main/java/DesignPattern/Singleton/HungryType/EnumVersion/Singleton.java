@@ -6,7 +6,7 @@ package DesignPattern.Singleton.HungryType.EnumVersion;
  */
 public class Singleton{
     private Singleton(){}
-    public enum SingletonEnum{
+    private enum SingletonEnum{
         INSTANCE;
         static {
             System.out.println("加载内部类");
@@ -21,7 +21,7 @@ public class Singleton{
     }
 }
 class test{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
         singleton1.say();

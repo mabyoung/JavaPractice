@@ -11,11 +11,14 @@ public class Singleton {
         return instance;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
+        Singleton singleton3 = (Singleton) Class.forName("DesignPattern.Singleton.HungryType.BasicVersion.Singleton").newInstance();
         System.out.println(singleton1);
         System.out.println(singleton2);
+        System.out.println(singleton3);
         System.out.println(singleton1 == singleton2);
+        System.out.println(singleton1 == singleton3);
     }
 }
