@@ -1,7 +1,7 @@
 package Basic.Thread.ThreadPool.SheduledThreadPoolExecutorTest;
 
 
-import Basic.Thread.ThreadPool.ThreadPoolExecutorTest.WorkerThread;
+import Basic.Thread.ThreadPool.WorkerThread;
 
 import java.util.Date;
 import java.util.concurrent.Executors;

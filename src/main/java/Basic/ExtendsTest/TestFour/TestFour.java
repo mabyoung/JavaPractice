@@ -1,4 +1,4 @@
-package Basic.ExtendsTest;
+package Basic.ExtendsTest.TestFour;
 abstract class A{
     public A(){
         this.print();
