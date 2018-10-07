@@ -1,5 +1,18 @@
 package Basic.ExtendsTest;
-class A{ }
+
+import java.util.HashMap;
+
+class Base{
+    public Base(){
+        System.out.println("base");
+    }
+}
+class A{
+    public A(){
+        System.out.println("调用构造函数");
+    }
+    Base a = new Base();
+}
 class B extends A {}
 class C extends A {}
 class D extends B {}
