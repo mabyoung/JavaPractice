@@ -1,4 +1,4 @@
-package Company.Net163;
+package Company.NETEASE;
 
 import java.util.HashMap;
 import java.util.Scanner;

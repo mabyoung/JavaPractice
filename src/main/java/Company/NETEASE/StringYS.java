@@ -1,7 +1,5 @@
-package Company.Net163;
+package Company.NETEASE;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
