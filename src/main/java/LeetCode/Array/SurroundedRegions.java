@@ -1,7 +1,5 @@
 package LeetCode.Array;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
 /**
  * Given a 2D board containing'X'and'O', capture all regions surrounded by'X'.
  *
