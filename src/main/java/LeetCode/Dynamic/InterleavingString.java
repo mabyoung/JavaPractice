@@ -2,18 +2,12 @@ package LeetCode.Dynamic;
 
 /**
  * Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.
- *
  * For example,
  * Given:
  * s1 ="aabcc",
  * s2 ="dbbca",
- *
  * When s3 ="aadbbcbcac", return true.
  * When s3 ="aadbbbaccc", return false.
- *
- * 链接：https://www.nowcoder.com/questionTerminal/4d0f94617e454e2da23e660cded4d9e8
- * 来源：牛客网
- *
  * s3是由s1和s2交织生成的，意味着s3由s1和s2组成，在s3中s1和s2字符的顺序是不能变化的，和子序列题型类似，这种题我们一般是用动态规划来解。
  *
  * 设dp[i][j]表示s3的前i+j个字符可以由s1的前i个字符和s2的前j个字符交织而成。
