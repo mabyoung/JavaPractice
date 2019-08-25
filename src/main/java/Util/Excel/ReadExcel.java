@@ -1,69 +1,120 @@
 package Util.Excel;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.Map.Entry;
 
-import jxl.Sheet;
-import jxl.Workbook;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcel {
-    public static void main(String[] args) {
-        ReadExcel obj = new ReadExcel();
-        // 此处为我创建Excel路径：E:/zhanhj/studysrc/jxl下
-        File file = new File("F:\\Downloads\\ChromeDownload\\DouBanSpider-master\\book_list-计算机-机器学习-linux-android-数据库-互联网.xls");
-        obj.readExcel(file);
-        System.out.println("list中的数据打印出来");
-    }
-
-    // 去读Excel的方法readExcel，该方法的入口参数为一个File对象
-    public void readExcel(File file) {
-        try {
-            File sqlFile = new File("C:\\Users\\mabyo\\Desktop\\sql.txt");//传入文件/目录的路径
-            if (sqlFile.exists()) {
-                boolean delete = sqlFile.delete();
-                if (!delete) {
-                    System.out.println("删除文件失败！！！直接退出");
-                    return;
-                }
-            }
-            PrintWriter printWriter = new PrintWriter(new FileWriter(sqlFile, true), true);//第二个参数为true，从文件末尾写入 为false则从开头写入
-
-            // 创建输入流，读取Excel
-            InputStream is = new FileInputStream(file.getAbsolutePath());
-            // jxl提供的Workbook类
-            Workbook wb = Workbook.getWorkbook(is);
-            // Excel的页签数量
-            int sheet_size = wb.getNumberOfSheets();
-            for (int index = 0; index < sheet_size; index++) {
-                // 每个页签创建一个Sheet对象
-                Sheet sheet = wb.getSheet(index);
-                // sheet.getRows()返回该页的总行数
-                for (int i = 1; i < sheet.getRows(); i++) {
-                    // sheet.getColumns()返回该页的总列数
-                    String sql = new String("insert into book(book_name, score, evaluator_num, author, publishing_house, published_date, price, book_type) values (\"$1\", $2, $3, \"$4\", \"$5\", \"$6\", \"$7\", \"$8\");");
-                    sql = sql.replace("$1", quotationEscape(sheet.getCell(1, i).getContents()));
-                    sql = sql.replace("$2", sheet.getCell(2, i).getContents());
-                    sql = sql.replace("$3", sheet.getCell(3, i).getContents());
-                    sql = sql.replace("$4", quotationEscape(sheet.getCell(4, i).getContents()));
-                    String publishInfo = sheet.getCell(5, i).getContents();
-                    String[] split = publishInfo.split("/");
-                    if (split.length < 3) {
-                        continue;
-                    }
-                    sql = sql.replace("$5", quotationEscape(split[0].trim()));
-                    sql = sql.replace("$6", quotationEscape(split[1].trim()));
-                    sql = sql.replace("$7", quotationEscape(split[2].trim()));
-                    sql = sql.replace("$8", quotationEscape(sheet.getName()));
-                    printWriter.println(sql);
-                }
-            }
-            printWriter.close();//记得关闭输入流
-        } catch (Exception e) {
-            e.printStackTrace();
+    public static List<Map<String, String>> readExcel(String filePath, int sheetIndex) {
+        List<Map<String, String>> result = new ArrayList<>();
+        Workbook workBook = getWorkBook(filePath);
+        if (workBook == null || sheetIndex < 0) {
+            return result;
         }
+        Sheet sheet = workBook.getSheetAt(sheetIndex);
+        if (sheet == null) {
+            return result;
+        }
+        List<String> colName = getColName(sheet);
+        int rowNum = sheet.getPhysicalNumberOfRows();
+        int colNum = sheet.getRow(0).getPhysicalNumberOfCells();
+        for (int i = 1; i < rowNum; i++) {
+            Map<String, String> map = new LinkedHashMap<>();
+            Row row = sheet.getRow(i);
+            if (row != null) {
+                for (int j = 0; j < colNum; j++) {
+                    map.put(colName.get(j), getCellFormatValue(row.getCell(j)));
+                }
+                result.add(map);
+            }
+        }
+        return result;
     }
 
-    private String quotationEscape(String str) {
-        str = str.replace("\"", "\\\"");
-        return str.replace("\'", "\\\'");
+    public static int getNumOfSheets(String filePath) {
+        Workbook workBook = getWorkBook(filePath);
+        return workBook.getNumberOfSheets();
+    }
+
+    public static String getSheetName(String filePath, int sheetIndex) {
+        Workbook workBook = getWorkBook(filePath);
+        Sheet sheet = workBook.getSheetAt(sheetIndex);
+        return sheet.getSheetName();
+    }
+
+    private static List<String> getColName(Sheet sheet) {
+        Row row = sheet.getRow(0);
+        int colNum = row.getPhysicalNumberOfCells();
+        List<String> colName = new ArrayList<>();
+        for (int i = 0; i < colNum; i++) {
+            colName.add(getCellFormatValue(row.getCell(i)));
+        }
+        return colName;
+    }
+
+    private static Workbook getWorkBook(String filePath) {
+        if (filePath != null) {
+            try {
+                InputStream is = new FileInputStream(filePath);
+                String extString = filePath.substring(filePath.lastIndexOf("."));
+                if (".xls".equals(extString)) {
+                    return new HSSFWorkbook(is);
+                } else if (".xlsx".equals(extString)) {
+                    return new XSSFWorkbook(is);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
+    private static String getCellFormatValue(Cell cell) {
+        if (cell != null) {
+            switch (cell.getCellType()) {
+                case Cell.CELL_TYPE_NUMERIC: {
+                    if (DateUtil.isCellDateFormatted(cell)) {
+                        Date date = cell.getDateCellValue();
+                        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+                        return format.format(date);
+                    } else {
+                        String result = (cell + "").trim();
+                        if (result.length() > 2 && ".0".equals(result.substring(result.length() - 2))) {
+                            return result.substring(0, result.length() - 2);
+                        }
+                        return result;
+                    }
+                }
+                case Cell.CELL_TYPE_STRING: {
+                    return cell.getRichStringCellValue().getString();
+                }
+                default:
+                    return null;
+            }
+        }
+        return null;
+    }
+
+    public static void main(String[] args) {
+        ReadExcel readExcel = new ReadExcel();
+        String filePath = "F:\\Downloads\\ChromeDownload\\book_list-个人管理-时间管理-投资-文化-宗教.xlsx";
+        int numOfSheets = readExcel.getNumOfSheets(filePath);
+        for (int i = 0; i < numOfSheets; i++) {
+            List<Map<String, String>> list = readExcel(filePath, i);
+            for (Map<String, String> map : list) {
+                for (Entry<String, String> entry : map.entrySet()) {
+                    System.out.print(entry.getKey() + ":" + entry.getValue() + ",");
+                }
+                System.out.println();
+            }
+        }
     }
 }
