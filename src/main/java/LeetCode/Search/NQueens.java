@@ -3,6 +3,13 @@ package LeetCode.Search;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * N皇后问题是把N个皇后放在一个N×N棋盘上，使皇后之间不会互相攻击。
+ *
+ * 给出一个整数n，返回n皇后问题的所有摆放方案
+ * 例如：
+ * 4皇后问题有两种摆放方案
+ */
 public class NQueens {
     public ArrayList<String[]> solveNQueens(int n) {
         ArrayList<String[]> result = new ArrayList<>();
@@ -66,7 +73,7 @@ public class NQueens {
 
     public static void main(String[] args) {
         NQueens nQueens = new NQueens();
-        ArrayList<String[]> strings = nQueens.solveNQueens(1);
+        ArrayList<String[]> strings = nQueens.solveNQueens(5);
         for (String[] string : strings) {
             System.out.println(Arrays.toString(string));
         }
