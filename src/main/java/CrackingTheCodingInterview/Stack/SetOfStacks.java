@@ -40,4 +40,8 @@ public class SetOfStacks {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        System.out.println((60480544656400L-955146630L)/3993315);
+    }
 }

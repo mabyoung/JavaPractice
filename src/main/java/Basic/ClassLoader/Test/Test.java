@@ -17,26 +17,6 @@ public class Test {
         list.add(2);
         Collections.reverse(list);
         System.out.println(list);
-        /*String numberStr = "2 ks 1 -1";
-        String[] split = numberStr.split(" ");
-        List<Integer> list = new ArrayList<>();
-        for (String str : split) {
-            if ((str.charAt(0)>='0'&&str.charAt(0)<='9')||str.charAt(0)=='-'){
-                System.out.println(Integer.parseInt(str));
-                list.add(Integer.parseInt(str));
-            }
-        }
-        int currentSum = 0;
-        int maxSum = 0;
-        for (int i=0;i<list.size();i++){
-            currentSum += list.get(i);
-            if (currentSum < 0){
-                currentSum = 0;
-            }
-            if (currentSum>maxSum){
-                maxSum = currentSum;
-            }
-        }
-        System.out.println(maxSum);*/
+
     }
 }

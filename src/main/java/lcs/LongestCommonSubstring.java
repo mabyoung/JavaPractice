@@ -3,30 +3,28 @@ package lcs;
 import java.util.Scanner;
 
 public class LongestCommonSubstring {
-    int LCS[][];
+    int dp[][];
     int aLength,bLength;
     int maxLength = 0,maxi,maxj;
     int getLCSLength(char[] a, char[] b){
         aLength = a.length;
         bLength = b.length;
-        LCS = new int[aLength+1][bLength+1];
+        dp = new int[aLength+1][bLength+1];
         for (int index = 0; index <= a.length; index++){
-            LCS[index][0] = 0;
+            dp[index][0] = 0;
         }
         for (int index = 0; index <= b.length; index++){
-            LCS[0][index] = 0;
+            dp[0][index] = 0;
         }
         for (int i = 1; i <= a.length; i++){
             for (int j = 1; j <= b.length; j++){
                 if (a[i-1] == b[j-1]){
-                    LCS[i][j] =  LCS[i-1][j-1] + 1;
-                    if (LCS[i][j] > maxLength){
-                        maxLength = LCS[i][j];
+                    dp[i][j] =  dp[i-1][j-1] + 1;
+                    if (dp[i][j] > maxLength){
+                        maxLength = dp[i][j];
                         maxi = i-1;
                         maxj = j-1;
                     }
-                } else {
-                    LCS[i][j] = 0;
                 }
             }
         }
