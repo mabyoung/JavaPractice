@@ -3,39 +3,43 @@ package LeetCode.Array;
 import java.util.Arrays;
 
 /**
- * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
- * If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
- * The replacement must be in-place, do not allocate extra memory.
- * Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+ * 实现获取 下一个排列 的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
+ * 如果不存在下一个更大的排列，则将数字重新排列成最小的排列（即升序排列）。
+ * 必须 原地 修改，只允许使用额外常数空间。
  * 1,2,3→1,3,2
  * 3,2,1→1,2,3
  * 1,1,5→1,5,1
  */
 public class NextPermutation {
     public void nextPermutation(int[] num) {
-        int i = num.length - 1;
-        while (i > 0 && num[i] <= num[i - 1]) {
-            i--;
+        int n = num.length;
+        int index = n - 1;
+        while (index > 0 && num[index] <= num[index - 1]) {
+            index--;
         }
-        if (i == 0) {
-            reverse(num, 0, num.length - 1);
-        } else {
-            int j = num.length - 1;
-            while (num[j] <= num[i - 1]) {
-                j--;
+        int left = 0;
+        if (index > 0) {
+            int target = index - 1;
+            while (index < n && num[index] > num[target]) {
+                index++;
             }
-            int tmp = num[i - 1];
-            num[i - 1] = num[j];
-            num[j] = tmp;
-            reverse(num, i, num.length - 1);
+            swap(num, target, index-1);
+            left = target + 1;
         }
+        revert(num, left, n - 1);
     }
 
-    private void reverse(int[] num, int begin, int end) {
-        while (begin < end) {
-            int tmp = num[begin];
-            num[begin++] = num[end];
-            num[end--] = tmp;
+    public void swap(int[] num, int i, int j) {
+        int tmp = num[i];
+        num[i] = num[j];
+        num[j] = tmp;
+    }
+
+    public void revert(int[] num, int left, int right) {
+        while (left < right) {
+            int tmp = num[left];
+            num[left++] = num[right];
+            num[right--] = tmp;
         }
     }
 

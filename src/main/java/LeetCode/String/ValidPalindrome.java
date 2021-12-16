@@ -1,20 +1,37 @@
 package LeetCode.String;
 
 public class ValidPalindrome {
-    public boolean isPalindrome(String s) {
-        String lower = s.toLowerCase();
-        lower = lower.replaceAll("[^a-z0-9]", "");
-        lower = lower.replaceAll(" ", "");
-        for (int i = 0; i < lower.length() / 2; i++) {
-            if (lower.charAt(i) != lower.charAt(lower.length() - 1 - i)) {
-                return false;
+    public boolean validPalindrome(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) == s.charAt(right)) {
+                left++;
+                right--;
+            } else {
+                return isPalindrome(s.substring(left, right)) || isPalindrome(s.substring(left + 1, right + 1));
             }
         }
         return true;
     }
 
+    public boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
+
         ValidPalindrome validPalindrome = new ValidPalindrome();
-        System.out.println(validPalindrome.isPalindrome("1a2"));
+        boolean result = validPalindrome.validPalindrome("abc");
+        System.out.println(result);
     }
 }
